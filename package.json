@@ -1,0 +1,17 @@
+{
+  "name": "solderdemon-bom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "puppeteer": "^24.32.0"
+  }
+}
