@@ -1,7 +1,7 @@
 # solderdemon-bom
 
 ## Requirements
-- **Node.js** (v16 or newer recommended)
+- **Node.js**
 - **npm**
 
 ---
@@ -38,3 +38,4 @@ After running the script, you should see generated files such as:
 ```text
 bom.pdf
 ```
+
