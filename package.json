@@ -12,6 +12,7 @@
   "type": "module",
   "dependencies": {
     "handlebars": "^4.7.8",
+    "pdf-lib": "^1.17.1",
     "puppeteer": "^24.32.0"
   }
 }
