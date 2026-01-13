@@ -135,7 +135,7 @@
         "component": "IC",
         "ref": "IC2,IC3,IC5,IC6",
         "footprint": "DIP24",
-        "value": "ATF22V10C",
+        "value": "ATF22V10C-15PX",
         "qty": 4,
         "notes": ""
     },
@@ -145,7 +145,7 @@
         "component": "IC",
         "ref": "IC4",
         "footprint": "PLCC44",
-        "value": "XR68C681CJTR-F",
+        "value": "SCN68681C1A44",
         "qty": 1,
         "notes": ""
     },
@@ -222,11 +222,11 @@
     {
         "index": 23,
         "package": 4,
-        "component": "Socket",
-        "ref": "DIL64",
-        "footprint": "DIP64",
-        "value": "SKT-IC1",
-        "qty": 1,
+        "component": "Pin Header",
+        "ref": "HDR-DIL32",
+        "footprint": "DIP32",
+        "value": "Pin header, 1x32",
+        "qty": 2,
         "notes": ""
     },
     {

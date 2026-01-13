@@ -1,0 +1,262 @@
+[
+    {
+        "index": 1,
+        "package": 2,
+        "component": "Capacitor",
+        "ref": "C1,C2,C3,C4,C8,C9,C10,C11,C12,C15,C19",
+        "footprint": "C2.5-3",
+        "value": "100nF",
+        "qty": 11,
+        "notes": ""
+    },
+    {
+        "index": 2,
+        "package": 2,
+        "component": "Capacitor",
+        "ref": "Q1_unlabeled_caps",
+        "footprint": "C2.5-3",
+        "value": "7pF",
+        "qty": 2,
+        "notes": ""
+    },
+    {
+        "index": 3,
+        "package": 2,
+        "component": "Capacitor",
+        "ref": "C18,C16",
+        "footprint": "E2.5-5",
+        "value": "100uF",
+        "qty": 2,
+        "notes": ""
+    },
+    {
+        "index": 4,
+        "package": 2,
+        "component": "Capacitor",
+        "ref": "C20",
+        "footprint": "E2.5-5",
+        "value": "10uF",
+        "qty": 1,
+        "notes": ""
+    },
+    {
+        "index": 5,
+        "package": 2,
+        "component": "Capacitor",
+        "ref": "C17",
+        "footprint": "E3.5-10",
+        "value": "470uF",
+        "qty": 1,
+        "notes": ""
+    },
+    {
+        "index": 6,
+        "package": 3,
+        "component": "Resistor",
+        "ref": "R1,R2,R3,R4,R7,R10,R11,R12,R13",
+        "footprint": "0207_10",
+        "value": "3K3",
+        "qty": 9,
+        "notes": ""
+    },
+    {
+        "index": 7,
+        "package": 3,
+        "component": "Resistor",
+        "ref": "R8",
+        "footprint": "0207_10",
+        "value": "2K2",
+        "qty": 1,
+        "notes": ""
+    },
+    {
+        "index": 8,
+        "package": 3,
+        "component": "Resistor",
+        "ref": "R9,R5,R6",
+        "footprint": "0207_10",
+        "value": "330R",
+        "qty": 3,
+        "notes": ""
+    },
+    {
+        "index": 10,
+        "package": 3,
+        "component": "LED",
+        "ref": "LED1",
+        "footprint": "LED5MM",
+        "value": "GREEN",
+        "qty": 1,
+        "notes": ""
+    },
+    {
+        "index": 11,
+        "package": 3,
+        "component": "LED",
+        "ref": "LED2",
+        "footprint": "LED5MM",
+        "value": "RED",
+        "qty": 1,
+        "notes": ""
+    },
+    {
+        "index": 12,
+        "package": 1,
+        "component": "IC",
+        "ref": "IC1",
+        "footprint": "DIP40",
+        "value": "W65C02S8P-10",
+        "qty": 1,
+        "notes": ""
+    },
+    {
+        "index": 13,
+        "package": 1,
+        "component": "IC",
+        "ref": "U1",
+        "footprint": "DIP32",
+        "value": "AS6C4008-55PCN",
+        "qty": 1,
+        "notes": ""
+    },
+    {
+        "index": 14,
+        "package": 1,
+        "component": "IC",
+        "ref": "U2",
+        "footprint": "DIP28",
+        "value": "AS6C62256-55PCN",
+        "qty": 1,
+        "notes": ""
+    },
+    {
+        "index": 15,
+        "package": 1,
+        "component": "IC",
+        "ref": "U3",
+        "footprint": "DIP28",
+        "value": "AT28C256-15PU",
+        "qty": 1,
+        "notes": ""
+    },
+    {
+        "index": 16,
+        "package": 1,
+        "component": "IC",
+        "ref": "IC3",
+        "footprint": "PLCC44",
+        "value": "SCN68681C1A44",
+        "qty": 1,
+        "notes": ""
+    },
+    {
+        "index": 17,
+        "package": 1,
+        "component": "IC",
+        "ref": "IC2,IC5",
+        "footprint": "DIP24",
+        "value": "ATF22V10C-15PX",
+        "qty": 2,
+        "notes": ""
+    },
+    {
+        "index": 18,
+        "package": 1,
+        "component": "IC",
+        "ref": "U4",
+        "footprint": "DIP16",
+        "value": "74HCT174",
+        "qty": 1,
+        "notes": ""
+    },
+    {
+        "index": 19,
+        "package": 1,
+        "component": "IC",
+        "ref": "IC4",
+        "footprint": "DIP8",
+        "value": "NE555P",
+        "qty": 1,
+        "notes": ""
+    },
+    {
+        "index": 20,
+        "package": 1,
+        "component": "Crystal",
+        "ref": "Q1",
+        "footprint": "HC49",
+        "value": "3.6864MHz",
+        "qty": 1,
+        "notes": ""
+    },
+    {
+        "index": 21,
+        "package": 1,
+        "component": "Oscillator",
+        "ref": "X1",
+        "footprint": "DIP14_Square",
+        "value": "10MHz",
+        "qty": 1,
+        "notes": ""
+    },
+    {
+        "index": 22,
+        "package": 3,
+        "component": "Jumper",
+        "ref": "JP1,JP2",
+        "footprint": "1X02",
+        "value": "Jumper",
+        "qty": 2,
+        "notes": ""
+    },
+    {
+        "index": 23,
+        "package": 4,
+        "component": "Pin header",
+        "ref": "J5",
+        "footprint": "Conn_02x18",
+        "value": "Expansion Header",
+        "qty": 1,
+        "notes": ""
+    },
+    {
+        "index": 24,
+        "package": 4,
+        "component": "Connector",
+        "ref": "J7",
+        "footprint": "Jack-DC",
+        "value": "DC Power Jack",
+        "qty": 1,
+        "notes": ""
+    },
+    {
+        "index": 25,
+        "package": 4,
+        "component": "Pin header (male)",
+        "ref": "J3",
+        "footprint": "1X06",
+        "value": "SPI",
+        "qty": 1,
+        "notes": ""
+    },
+    {
+        "index": 26,
+        "package": 4,
+        "component": "Pin header",
+        "ref": "J1",
+        "footprint": "1X06",
+        "value": "UART_A",
+        "qty": 1,
+        "notes": ""
+    },
+    {
+        "index": 27,
+        "package": 4,
+        "component": "Pin header",
+        "ref": "J2",
+        "footprint": "1X06",
+        "value": "UART_B",
+        "qty": 1,
+        "notes": ""
+    }
+]
