@@ -268,7 +268,7 @@
     },
     {
         "index": 30,
-        "component": "Pin Header",
+        "component": "Pin Header (Male)",
         "ref": "J3",
         "footprint": "HDR_1X6",
         "value": "SPI",
@@ -282,16 +282,6 @@
         "footprint": "HDR_1X6",
         "value": "UART",
         "qty": 2,
-        "notes": ""
-    },
-
-    {
-        "index": 32,
-        "component": "Pin Header (Male)",
-        "ref": "J3",
-        "footprint": "HDR_1X6",
-        "value": "UART",
-        "qty": 1,
         "notes": ""
     },
 
