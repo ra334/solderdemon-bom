@@ -1,107 +1,118 @@
 [
     {
         "index": 1,
-        "package": 2,
         "component": "Capacitor",
         "ref": "C1,C2,C3,C4,C8,C9,C10,C11,C12,C15,C19",
-        "footprint": "C2.5-3",
+        "footprint": "C_5MM",
         "value": "100nF",
         "qty": 11,
         "notes": ""
     },
     {
         "index": 2,
-        "package": 2,
         "component": "Capacitor",
-        "ref": "Q1_unlabeled_caps",
-        "footprint": "C2.5-3",
+        "ref": "C13,C14",
+        "footprint": "C_2.5MM",
         "value": "7pF",
         "qty": 2,
         "notes": ""
     },
     {
         "index": 3,
-        "package": 2,
         "component": "Capacitor",
         "ref": "C18,C16",
-        "footprint": "E2.5-5",
+        "footprint": "CP_5MM",
         "value": "100uF",
         "qty": 2,
         "notes": ""
     },
     {
         "index": 4,
-        "package": 2,
         "component": "Capacitor",
         "ref": "C20",
-        "footprint": "E2.5-5",
+        "footprint": "CP_5MM",
         "value": "10uF",
         "qty": 1,
         "notes": ""
     },
     {
         "index": 5,
-        "package": 2,
         "component": "Capacitor",
         "ref": "C17",
-        "footprint": "E3.5-10",
+        "footprint": "CP_8MM",
         "value": "470uF",
         "qty": 1,
         "notes": ""
     },
+
     {
         "index": 6,
-        "package": 3,
         "component": "Resistor",
         "ref": "R1,R2,R3,R4,R7,R10,R11,R12,R13",
-        "footprint": "0207_10",
+        "footprint": "R_7.62MM",
         "value": "3K3",
         "qty": 9,
         "notes": ""
     },
     {
         "index": 7,
-        "package": 3,
         "component": "Resistor",
         "ref": "R8",
-        "footprint": "0207_10",
+        "footprint": "R_7.62MM",
         "value": "2K2",
         "qty": 1,
         "notes": ""
     },
     {
         "index": 8,
-        "package": 3,
         "component": "Resistor",
-        "ref": "R9,R5,R6",
-        "footprint": "0207_10",
+        "ref": "R5,R6,R9",
+        "footprint": "R_7.62MM",
         "value": "330R",
         "qty": 3,
         "notes": ""
     },
+
     {
-        "index": 10,
-        "package": 3,
+        "index": 9,
         "component": "LED",
         "ref": "LED1",
-        "footprint": "LED5MM",
+        "footprint": "LED_5MM",
         "value": "GREEN",
         "qty": 1,
         "notes": ""
     },
     {
-        "index": 11,
-        "package": 3,
+        "index": 10,
         "component": "LED",
         "ref": "LED2",
-        "footprint": "LED5MM",
+        "footprint": "LED_5MM",
         "value": "RED",
+        "qty": 1,
+        "notes": ""
+    },
+
+    {
+        "index": 11,
+        "component": "Crystal",
+        "ref": "Q1",
+        "footprint": "XTAL_HC49",
+        "value": "3.6864MHz",
         "qty": 1,
         "notes": ""
     },
     {
         "index": 12,
-        "package": 1,
+        "component": "Oscillator",
+        "ref": "X1",
+        "footprint": "OSC_DIP4",
+        "value": "10MHz",
+        "qty": 1,
+        "notes": ""
+    },
+
+    {
+        "index": 13,
         "component": "IC",
         "ref": "IC1",
         "footprint": "DIP40",
@@ -110,8 +121,7 @@
         "notes": ""
     },
     {
-        "index": 13,
-        "package": 1,
+        "index": 14,
         "component": "IC",
         "ref": "U1",
         "footprint": "DIP32",
@@ -120,8 +130,7 @@
         "notes": ""
     },
     {
-        "index": 14,
-        "package": 1,
+        "index": 15,
         "component": "IC",
         "ref": "U2",
         "footprint": "DIP28",
@@ -130,8 +139,7 @@
         "notes": ""
     },
     {
-        "index": 15,
-        "package": 1,
+        "index": 16,
         "component": "IC",
         "ref": "U3",
         "footprint": "DIP28",
@@ -140,8 +148,7 @@
         "notes": ""
     },
     {
-        "index": 16,
-        "package": 1,
+        "index": 17,
         "component": "IC",
         "ref": "IC3",
         "footprint": "PLCC44",
@@ -150,8 +157,7 @@
         "notes": ""
     },
     {
-        "index": 17,
-        "package": 1,
+        "index": 18,
         "component": "IC",
         "ref": "IC2,IC5",
         "footprint": "DIP24",
@@ -160,8 +166,7 @@
         "notes": ""
     },
     {
-        "index": 18,
-        "package": 1,
+        "index": 19,
         "component": "IC",
         "ref": "U4",
         "footprint": "DIP16",
@@ -170,8 +175,7 @@
         "notes": ""
     },
     {
-        "index": 19,
-        "package": 1,
+        "index": 20,
         "component": "IC",
         "ref": "IC4",
         "footprint": "DIP8",
@@ -179,83 +183,123 @@
         "qty": 1,
         "notes": ""
     },
-    {
-        "index": 20,
-        "package": 1,
-        "component": "Crystal",
-        "ref": "Q1",
-        "footprint": "HC49",
-        "value": "3.6864MHz",
-        "qty": 1,
-        "notes": ""
-    },
+
     {
         "index": 21,
-        "package": 1,
-        "component": "Oscillator",
-        "ref": "X1",
-        "footprint": "DIP14_Square",
-        "value": "10MHz",
+        "component": "Socket",
+        "ref": "SKT1",
+        "footprint": "DIP40",
+        "value": "SOCKET",
         "qty": 1,
         "notes": ""
     },
     {
         "index": 22,
-        "package": 3,
-        "component": "Jumper",
-        "ref": "JP1,JP2",
-        "footprint": "1X02",
-        "value": "Jumper",
-        "qty": 2,
-        "notes": ""
-    },
-    {
-        "index": 23,
-        "package": 4,
-        "component": "Pin header",
-        "ref": "J5",
-        "footprint": "Conn_02x18",
-        "value": "Expansion Header",
+        "component": "Socket",
+        "ref": "SKT2",
+        "footprint": "DIP32",
+        "value": "SOCKET",
         "qty": 1,
         "notes": ""
     },
     {
+        "index": 23,
+        "component": "Socket",
+        "ref": "SKT3,SKT4",
+        "footprint": "DIP28",
+        "value": "SOCKET",
+        "qty": 2,
+        "notes": ""
+    },
+    {
         "index": 24,
-        "package": 4,
-        "component": "Connector",
-        "ref": "J7",
-        "footprint": "Jack-DC",
-        "value": "DC Power Jack",
+        "component": "Socket",
+        "ref": "SKT5",
+        "footprint": "PLCC44",
+        "value": "SOCKET",
         "qty": 1,
         "notes": ""
     },
     {
         "index": 25,
-        "package": 4,
-        "component": "Pin header (male)",
-        "ref": "J3",
-        "footprint": "1X06",
-        "value": "SPI",
-        "qty": 1,
+        "component": "Socket",
+        "ref": "SKT6,SKT7",
+        "footprint": "DIP24",
+        "value": "SOCKET",
+        "qty": 2,
         "notes": ""
     },
     {
         "index": 26,
-        "package": 4,
-        "component": "Pin header",
-        "ref": "J1",
-        "footprint": "1X06",
-        "value": "UART_A",
+        "component": "Socket",
+        "ref": "SKT8",
+        "footprint": "DIP16",
+        "value": "SOCKET",
         "qty": 1,
         "notes": ""
     },
     {
         "index": 27,
-        "package": 4,
-        "component": "Pin header",
-        "ref": "J2",
-        "footprint": "1X06",
-        "value": "UART_B",
+        "component": "Socket",
+        "ref": "SKT9",
+        "footprint": "DIP8",
+        "value": "SOCKET",
+        "qty": 1,
+        "notes": ""
+    },
+
+    {
+        "index": 28,
+        "component": "Jumper",
+        "ref": "JP1,JP2",
+        "footprint": "HDR_1X2",
+        "value": "JUMPER",
+        "qty": 2,
+        "notes": ""
+    },
+    {
+        "index": 29,
+        "component": "Pin Header",
+        "ref": "J5",
+        "footprint": "HDR_2X18",
+        "value": "",
+        "qty": 1,
+        "notes": ""
+    },
+    {
+        "index": 30,
+        "component": "Pin Header",
+        "ref": "J3",
+        "footprint": "HDR_1X6",
+        "value": "SPI",
+        "qty": 1,
+        "notes": ""
+    },
+    {
+        "index": 31,
+        "component": "Pin Header",
+        "ref": "J1,J2",
+        "footprint": "HDR_1X6",
+        "value": "UART",
+        "qty": 2,
+        "notes": ""
+    },
+
+    {
+        "index": 32,
+        "component": "Connector",
+        "ref": "J7",
+        "footprint": "DC_JACK",
+        "value": "",
+        "qty": 1,
+        "notes": ""
+    },
+    {
+        "index": 33,
+        "component": "Button",
+        "ref": "SW1",
+        "footprint": "SW_6MM",
+        "value": "",
         "qty": 1,
         "notes": ""
     }
