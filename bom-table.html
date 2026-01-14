@@ -20,13 +20,13 @@
         </style>
     </head>
     <body class="text-[#1a1a1a]">
-        <header class="mb-6 pb-4 border-b border-black/10">
+        <header class="mb-6 pb-4 border-b border-black">
             <div class="flex justify-between items-center">
                 <div>
                     <h1 class="text-2xl font-bold">Bill of Materials</h1>
-                    <p class="text-sm text-black/60">{{KIT_NAME}} — Rev. {{REV}}</p>
+                    <p class="text-sm text-black">{{KIT_NAME}} — Rev. {{REV}}</p>
                 </div>
-                <div class="text-right text-sm text-black/60">
+                <div class="text-right text-sm text-black">
                     <p>SKU: {{SKU}}</p>
                     <p>Date: {{DATE}}</p>
                 </div>
@@ -35,27 +35,27 @@
 
         <section>
             <table class="w-full border-collapse text-xs">
-                <thead class="table-header text-black/80 text-left">
+                <thead class="table-header text-black text-left">
                     <tr>
-                        <th class="p-[5px] border border-black/10">#</th>
-                        <th class="p-[5px] border border-black/10">Component</th>
-                        <th class="p-[5px] border border-black/10">Reference</th>
-                        <th class="p-[5px] border border-black/10">Footprint</th>
-                        <th class="p-[5px] border border-black/10">Value</th>
-                        <th class="p-[5px] border border-black/10">Qty</th>
-                        <th class="p-[5px] border border-black/10">Notes</th>
+                        <th class="p-[5px] border border-black">#</th>
+                        <th class="p-[5px] border border-black">Component</th>
+                        <th class="p-[5px] border border-black">Reference</th>
+                        <th class="p-[5px] border border-black">Footprint</th>
+                        <th class="p-[5px] border border-black">Value</th>
+                        <th class="p-[5px] border border-black">Qty</th>
+                        <th class="p-[5px] border border-black">Notes</th>
                     </tr>
                 </thead>
                 <tbody>
                     {{#each BOM}}
                     <tr class="even:bg-black/5">
-                        <td class="p-[5px] border border-black/10">{{index}}</td>
-                        <td class="p-[5px] border border-black/10">{{component}}</td>
-                        <td class="p-[5px] border border-black/10 break-words max-w-xs">{{ref}}</td>
-                        <td class="p-[5px] border border-black/10">{{footprint}}</td>
-                        <td class="p-[5px] border border-black/10">{{value}}</td>
-                        <td class="p-[5px] border border-black/10 text-center">{{qty}}</td>
-                        <td class="p-[5px] border border-black/10">{{notes}}</td>
+                        <td class="p-[5px] border border-black">{{index}}</td>
+                        <td class="p-[5px] border border-black">{{component}}</td>
+                        <td class="p-[5px] border border-black break-words max-w-xs">{{ref}}</td>
+                        <td class="p-[5px] border border-black">{{footprint}}</td>
+                        <td class="p-[5px] border border-black">{{value}}</td>
+                        <td class="p-[5px] border border-black text-center">{{qty}}</td>
+                        <td class="p-[5px] border border-black">{{notes}}</td>
                     </tr>
                     {{/each}}
                 </tbody>
