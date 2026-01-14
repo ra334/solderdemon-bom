@@ -287,6 +287,16 @@
 
     {
         "index": 32,
+        "component": "Pin Header (Male)",
+        "ref": "J3",
+        "footprint": "HDR_1X6",
+        "value": "UART",
+        "qty": 1,
+        "notes": ""
+    },
+
+    {
+        "index": 33,
         "component": "Connector",
         "ref": "J7",
         "footprint": "DC_JACK",
@@ -295,7 +305,7 @@
         "notes": ""
     },
     {
-        "index": 33,
+        "index": 34,
         "component": "Button",
         "ref": "SW1",
         "footprint": "SW_6MM",
