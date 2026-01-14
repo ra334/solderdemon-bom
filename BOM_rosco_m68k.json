@@ -1,282 +1,297 @@
 [
-    {
-        "index": 1,
-        "package": 2,
-        "component": "Capacitor",
-        "ref": "C7,C24,C13,C31,C12,C10,C32,C30,C29,C28,C9,C8,C3,C4,C5,C6,C27,C26,C25,C23,C22,C20",
-        "footprint": "C2.5-3",
-        "value": "100nF",
-        "qty": 22,
-        "notes": ""
-    },
-    {
-        "index": 2,
-        "package": 2,
-        "component": "Capacitor",
-        "ref": "C1,C2",
-        "footprint": "C2.5-3",
-        "value": "7pF",
-        "qty": 2,
-        "notes": ""
-    },
-    {
-        "index": 3,
-        "package": 2,
-        "component": "Capacitor",
-        "ref": "C11,C19,C18,C17,C16,C15,C14",
-        "footprint": "E2.5-5",
-        "value": "100uF",
-        "qty": 7,
-        "notes": ""
-    },
-    {
-        "index": 4,
-        "package": 2,
-        "component": "Capacitor",
-        "ref": "C21",
-        "footprint": "E3.5-10",
-        "value": "470uF",
-        "qty": 1,
-        "notes": ""
-    },
-    {
-        "index": 5,
-        "package": 3,
-        "component": "Resistor",
-        "ref": "R18,R17,R16,R15,R12,R8,R10,R32,R31,R9,R3,R7",
-        "footprint": "0207_10",
-        "value": "4K7",
-        "qty": 12,
-        "notes": ""
-    },
-    {
-        "index": 6,
-        "package": 3,
-        "component": "Resistor",
-        "ref": "R11,R19",
-        "footprint": "0207_10",
-        "value": "10K",
-        "qty": 2,
-        "notes": ""
-    },
-    {
-        "index": 7,
-        "package": 3,
-        "component": "Resistor",
-        "ref": "R21",
-        "footprint": "0207_10",
-        "value": "1K2",
-        "qty": 1,
-        "notes": ""
-    },
-    {
-        "index": 8,
-        "package": 3,
-        "component": "Resistor",
-        "ref": "R14,R13,R2,R1",
-        "footprint": "0207_10",
-        "value": "330R",
-        "qty": 4,
-        "notes": ""
-    },
-    {
-        "index": 9,
-        "package": 3,
-        "component": "Resistor",
-        "ref": "R28",
-        "footprint": "0207_10",
-        "value": "270R",
-        "qty": 1,
-        "notes": ""
-    },
-    {
-        "index": 10,
-        "package": 3,
-        "component": "Resistor",
-        "ref": "R27",
-        "footprint": "0207_10",
-        "value": "2K2",
-        "qty": 1,
-        "notes": ""
-    },
-    {
-        "index": 11,
-        "package": 3,
-        "component": "LED",
-        "ref": "LED1,LED3",
-        "footprint": "LED5MM",
-        "value": "GREEN",
-        "qty": 2,
-        "notes": ""
-    },
-    {
-        "index": 12,
-        "package": 3,
-        "component": "LED",
-        "ref": "LED2,LED4",
-        "footprint": "LED5MM",
-        "value": "RED",
-        "qty": 2,
-        "notes": ""
-    },
-    {
-        "index": 13,
-        "package": 1,
-        "component": "IC",
-        "ref": "IC1",
-        "footprint": "DIP64",
-        "value": "MC68010P10",
-        "qty": 1,
-        "notes": ""
-    },
-    {
-        "index": 14,
-        "package": 1,
-        "component": "IC",
-        "ref": "IC2,IC3,IC5,IC6",
-        "footprint": "DIP24",
-        "value": "ATF22V10C-15PX",
-        "qty": 4,
-        "notes": ""
-    },
-    {
-        "index": 15,
-        "package": 1,
-        "component": "IC",
-        "ref": "IC4",
-        "footprint": "PLCC44",
-        "value": "SCN68681C1A44",
-        "qty": 1,
-        "notes": ""
-    },
-    {
-        "index": 16,
-        "package": 1,
-        "component": "IC",
-        "ref": "IC7",
-        "footprint": "DIP16",
-        "value": "74LS148",
-        "qty": 1,
-        "notes": ""
-    },
-    {
-        "index": 17,
-        "package": 1,
-        "component": "IC",
-        "ref": "IC15",
-        "footprint": "DIP8",
-        "value": "555N",
-        "qty": 1,
-        "notes": ""
-    },
-    {
-        "index": 18,
-        "package": 1,
-        "component": "IC",
-        "ref": "U1,U2",
-        "footprint": "DIP32",
-        "value": "SST39SF040",
-        "qty": 2,
-        "notes": ""
-    },
-    {
-        "index": 19,
-        "package": 1,
-        "component": "IC",
-        "ref": "U3,U4",
-        "footprint": "DIP32",
-        "value": "AS6C4008-55PCN",
-        "qty": 2,
-        "notes": ""
-    },
-    {
-        "index": 20,
-        "package": 1,
-        "component": "Crystal",
-        "ref": "Q1",
-        "footprint": "HC49-4H",
-        "value": "Crystal",
-        "qty": 1,
-        "notes": ""
-    },
-    {
-        "index": 21,
-        "package": 1,
-        "component": "Oscillator",
-        "ref": "Q2",
-        "footprint": "DIP-8",
-        "value": "5H8ET-10.000",
-        "qty": 1,
-        "notes": ""
-    },
-    {
-        "index": 22,
-        "package": 3,
-        "component": "Jumper",
-        "ref": "JP1,JP2,JP3,JP4",
-        "footprint": "1X02",
-        "value": "Jumper",
-        "qty": 4,
-        "notes": ""
-    },
-    {
-        "index": 23,
-        "package": 4,
-        "component": "Pin Header",
-        "ref": "HDR-DIL32",
-        "footprint": "DIP32",
-        "value": "Pin header, 1x32",
-        "qty": 2,
-        "notes": ""
-    },
-    {
-        "index": 24,
-        "package": 4,
-        "component": "Socket",
-        "ref": "DIL24",
-        "footprint": "DIP24",
-        "value": "SKT-IC2IC3IC5IC6",
-        "qty": 4,
-        "notes": ""
-    },
-    {
-        "index": 25,
-        "package": 4,
-        "component": "Socket",
-        "ref": "PLCC-44_THT-Socket",
-        "footprint": "PLCC44",
-        "value": "SKT-IC4",
-        "qty": 1,
-        "notes": ""
-    },
-    {
-        "index": 26,
-        "package": 4,
-        "component": "Socket",
-        "ref": "DIL16",
-        "footprint": "DIP16",
-        "value": "SKT-IC7",
-        "qty": 1,
-        "notes": ""
-    },
-    {
-        "index": 27,
-        "package": 4,
-        "component": "Socket",
-        "ref": "DIL08",
-        "footprint": "DIP8",
-        "value": "SKT-IC15",
-        "qty": 1,
-        "notes": ""
-    },
-    {
-        "index": 28,
-        "package": 4,
-        "component": "Socket",
-        "ref": "DIL32",
-        "footprint": "DIP32",
-        "value": "SKT-U1U2U3U4",
-        "qty": 4,
-        "notes": ""
-    }
+  {
+    "index": 1,
+    "component": "Capacitor",
+    "ref": "C7,C24,C13,C31,C12,C10,C32,C30,C29,C28,C9,C8,C3,C4,C5,C6,C27,C26,C25,C23,C22,C20",
+    "footprint": "C_5MM",
+    "value": "100nF",
+    "qty": 22,
+    "notes": ""
+  },
+  {
+    "index": 2,
+    "component": "Capacitor",
+    "ref": "C1,C2",
+    "footprint": "C_2.5MM",
+    "value": "7pF",
+    "qty": 2,
+    "notes": ""
+  },
+  {
+    "index": 3,
+    "component": "Capacitor",
+    "ref": "C11,C19,C18,C17,C16,C15,C14",
+    "footprint": "CP_5MM",
+    "value": "100uF",
+    "qty": 7,
+    "notes": ""
+  },
+  {
+    "index": 4,
+    "component": "Capacitor",
+    "ref": "C21",
+    "footprint": "CP_8MM",
+    "value": "470uF",
+    "qty": 1,
+    "notes": ""
+  },
+
+  {
+    "index": 5,
+    "component": "Resistor",
+    "ref": "R18,R17,R16,R15,R12,R8,R10,R32,R31,R9,R3,R7",
+    "footprint": "R_7.62MM",
+    "value": "4K7",
+    "qty": 12,
+    "notes": ""
+  },
+  {
+    "index": 6,
+    "component": "Resistor",
+    "ref": "R11,R19",
+    "footprint": "R_7.62MM",
+    "value": "10K",
+    "qty": 2,
+    "notes": ""
+  },
+  {
+    "index": 7,
+    "component": "Resistor",
+    "ref": "R21",
+    "footprint": "R_7.62MM",
+    "value": "1K2",
+    "qty": 1,
+    "notes": ""
+  },
+  {
+    "index": 8,
+    "component": "Resistor",
+    "ref": "R14,R13,R2,R1",
+    "footprint": "R_7.62MM",
+    "value": "330R",
+    "qty": 4,
+    "notes": ""
+  },
+  {
+    "index": 9,
+    "component": "Resistor",
+    "ref": "R28",
+    "footprint": "R_7.62MM",
+    "value": "270R",
+    "qty": 1,
+    "notes": ""
+  },
+  {
+    "index": 10,
+    "component": "Resistor",
+    "ref": "R27",
+    "footprint": "R_7.62MM",
+    "value": "2K2",
+    "qty": 1,
+    "notes": ""
+  },
+
+  {
+    "index": 11,
+    "component": "LED",
+    "ref": "LED1,LED3",
+    "footprint": "LED_5MM",
+    "value": "GREEN",
+    "qty": 2,
+    "notes": ""
+  },
+  {
+    "index": 12,
+    "component": "LED",
+    "ref": "LED2,LED4",
+    "footprint": "LED_5MM",
+    "value": "RED",
+    "qty": 2,
+    "notes": ""
+  },
+
+  {
+    "index": 13,
+    "component": "Crystal",
+    "ref": "Q1",
+    "footprint": "XTAL_HC49",
+    "value": "3.6864MHz",
+    "qty": 1,
+    "notes": ""
+  },
+  {
+    "index": 14,
+    "component": "Oscillator",
+    "ref": "Q2",
+    "footprint": "OSC_DIP4",
+    "value": "10MHz",
+    "qty": 1,
+    "notes": ""
+  },
+
+  {
+    "index": 15,
+    "component": "IC",
+    "ref": "IC1",
+    "footprint": "DIP64",
+    "value": "MC68010P10",
+    "qty": 1,
+    "notes": ""
+  },
+  {
+    "index": 16,
+    "component": "IC",
+    "ref": "IC2,IC3,IC5,IC6",
+    "footprint": "DIP24",
+    "value": "ATF22V10C-15PX",
+    "qty": 4,
+    "notes": ""
+  },
+  {
+    "index": 17,
+    "component": "IC",
+    "ref": "IC4",
+    "footprint": "PLCC44",
+    "value": "SCN68681C1A44",
+    "qty": 1,
+    "notes": ""
+  },
+  {
+    "index": 18,
+    "component": "IC",
+    "ref": "IC7",
+    "footprint": "DIP16",
+    "value": "74LS148",
+    "qty": 1,
+    "notes": ""
+  },
+  {
+    "index": 19,
+    "component": "IC",
+    "ref": "IC15",
+    "footprint": "DIP8",
+    "value": "NE555P",
+    "qty": 1,
+    "notes": ""
+  },
+  {
+    "index": 20,
+    "component": "IC",
+    "ref": "U1,U2",
+    "footprint": "DIP32",
+    "value": "SST39SF040-70-4C-PHE",
+    "qty": 2,
+    "notes": ""
+  },
+  {
+    "index": 21,
+    "component": "IC",
+    "ref": "U3,U4",
+    "footprint": "DIP32",
+    "value": "AS6C4008-55PCN",
+    "qty": 2,
+    "notes": ""
+  },
+
+  {
+    "index": 22,
+    "component": "Socket",
+    "ref": "SKT1,SKT2,SKT3,SKT4",
+    "footprint": "DIP24",
+    "value": "SOCKET",
+    "qty": 4,
+    "notes": ""
+  },
+  {
+    "index": 23,
+    "component": "Socket",
+    "ref": "SKT5",
+    "footprint": "PLCC44",
+    "value": "SOCKET",
+    "qty": 1,
+    "notes": ""
+  },
+  {
+    "index": 24,
+    "component": "Socket",
+    "ref": "SKT6",
+    "footprint": "DIP16",
+    "value": "SOCKET",
+    "qty": 1,
+    "notes": ""
+  },
+  {
+    "index": 25,
+    "component": "Socket",
+    "ref": "SKT7",
+    "footprint": "DIP8",
+    "value": "SOCKET",
+    "qty": 1,
+    "notes": ""
+  },
+  {
+    "index": 26,
+    "component": "Socket",
+    "ref": "SKT8,SKT9,SKT10,SKT11",
+    "footprint": "DIP32",
+    "value": "SOCKET",
+    "qty": 4,
+    "notes": ""
+  },
+
+  {
+    "index": 27,
+    "component": "Jumper",
+    "ref": "JP1,JP2,JP3,JP4",
+    "footprint": "HDR_1X2",
+    "value": "JUMPER",
+    "qty": 4,
+    "notes": ""
+  },
+  {
+    "index": 28,
+    "component": "Pin Header",
+    "ref": "J1,J2",
+    "footprint": "HDR_1X32",
+    "value": "1x32",
+    "qty": 2,
+    "notes": ""
+  },
+  {
+    "index": 29,
+    "component": "Pin Header",
+    "ref": "J3",
+    "footprint": "HDR_1X6",
+    "value": "1x6",
+    "qty": 1,
+    "notes": ""
+  },
+  {
+    "index": 30,
+    "component": "Pin Header",
+    "ref": "J4,J5",
+    "footprint": "HDR_1X6",
+    "value": "1x6",
+    "qty": 2,
+    "notes": ""
+  },
+  {
+    "index": 31,
+    "component": "Pin Header",
+    "ref": "JP5,JP6,JP7,JP8",
+    "footprint": "HDR_1X2",
+    "value": "1x2",
+    "qty": 4,
+    "notes": ""
+  },
+
+  {
+    "index": 32,
+    "component": "Button",
+    "ref": "SW1",
+    "footprint": "SW_6MM",
+    "value": "BUTTON",
+    "qty": 1,
+    "notes": ""
+  }
 ]

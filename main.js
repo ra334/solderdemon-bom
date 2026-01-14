@@ -2,7 +2,7 @@ import puppeteer from "puppeteer";
 import fs from "fs";
 import Handlebars from "handlebars";
 import path from "path";
-import BOM from './BOM.json' with { type: "json" };
+import BOM from './BOM_rosco_m68k.json' with { type: "json" };
 
 function renderTemplate(templatePath, data) {
     const templateSource = fs.readFileSync(templatePath, "utf8");
@@ -43,7 +43,6 @@ function renderTemplate(templatePath, data) {
     
     const coverPdfBuffer = await page1.pdf({
         format: "A4",
-        printBackground: true,
         margin: { top: "0px", right: "0px", bottom: "0px", left: "0px" },
     });
     await page1.close();
@@ -56,7 +55,6 @@ function renderTemplate(templatePath, data) {
     
     const bomPdfBuffer = await page2.pdf({
         format: "A4",
-        printBackground: true,
         margin: { top: "0px", right: "0px", bottom: "0px", left: "0px" },
     });
     await page2.close();

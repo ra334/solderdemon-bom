@@ -14,6 +14,7 @@
                 background: #f5f5f5;
             }
             @page {
+                margin: 0;
                 padding: 32px;
             }
         </style>
@@ -36,27 +37,25 @@
             <table class="w-full border-collapse text-xs">
                 <thead class="table-header text-black/80 text-left">
                     <tr>
-                        <th class="p-2 border border-black/10">#</th>
-                        <th class="p-2 border border-black/10">Package</th>
-                        <th class="p-2 border border-black/10">Component</th>
-                        <th class="p-2 border border-black/10">Reference</th>
-                        <th class="p-2 border border-black/10">Footprint</th>
-                        <th class="p-2 border border-black/10">Value</th>
-                        <th class="p-2 border border-black/10">Qty</th>
-                        <th class="p-2 border border-black/10">Notes</th>
+                        <th class="p-[5px] border border-black/10">#</th>
+                        <th class="p-[5px] border border-black/10">Component</th>
+                        <th class="p-[5px] border border-black/10">Reference</th>
+                        <th class="p-[5px] border border-black/10">Footprint</th>
+                        <th class="p-[5px] border border-black/10">Value</th>
+                        <th class="p-[5px] border border-black/10">Qty</th>
+                        <th class="p-[5px] border border-black/10">Notes</th>
                     </tr>
                 </thead>
                 <tbody>
                     {{#each BOM}}
                     <tr class="even:bg-black/5">
-                        <td class="p-2 border border-black/10">{{index}}</td>
-                        <td class="p-2 border border-black/10">{{package}}</td>
-                        <td class="p-2 border border-black/10">{{component}}</td>
-                        <td class="p-2 border border-black/10 break-words max-w-xs">{{ref}}</td>
-                        <td class="p-2 border border-black/10">{{footprint}}</td>
-                        <td class="p-2 border border-black/10">{{value}}</td>
-                        <td class="p-2 border border-black/10 text-center">{{qty}}</td>
-                        <td class="p-2 border border-black/10">{{notes}}</td>
+                        <td class="p-[5px] border border-black/10">{{index}}</td>
+                        <td class="p-[5px] border border-black/10">{{component}}</td>
+                        <td class="p-[5px] border border-black/10 break-words max-w-xs">{{ref}}</td>
+                        <td class="p-[5px] border border-black/10">{{footprint}}</td>
+                        <td class="p-[5px] border border-black/10">{{value}}</td>
+                        <td class="p-[5px] border border-black/10 text-center">{{qty}}</td>
+                        <td class="p-[5px] border border-black/10">{{notes}}</td>
                     </tr>
                     {{/each}}
                 </tbody>
