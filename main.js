@@ -2,7 +2,52 @@ import puppeteer from "puppeteer";
 import fs from "fs";
 import Handlebars from "handlebars";
 import path from "path";
-import BOM from './BOM_rosco_m68k.json' with { type: "json" };
+import prompts from "prompts";
+import BOM6502 from './BOM_rosco_6502.json' with { type: "json" };
+import BOMm68k from './BOM_rosco_m68k.json' with { type: "json" };
+
+const kits = [
+    {
+        id: "6502",
+        label: "Generate Rosco 6502 BOM",
+        KIT_NAME: "Rosco 6502 Kit",
+        SKU: "rosco-6502-through-hole-kit",
+        BOM: BOM6502,
+    },
+    {
+        id: "m68k",
+        label: "Generate Rosco m68k BOM",
+        KIT_NAME: "Rosco m68k Kit",
+        SKU: "rosco-m68k-kit",
+        BOM: BOMm68k,
+    },
+];
+
+async function selectKit() {
+    if (!process.stdin.isTTY) {
+        console.log("Non-interactive terminal detected, defaulting to Rosco 6502 BOM.");
+        return kits[0];
+    }
+
+    const response = await prompts(
+        {
+            type: "select",
+            name: "kit",
+            message: "Select which BOM to generate",
+            choices: kits.map((kit) => ({
+                title: kit.label,
+                value: kit.id,
+            })),
+        },
+        {
+            onCancel: () => {
+                process.exit(0);
+            },
+        },
+    );
+
+    return kits.find((kit) => kit.id === response.kit) ?? kits[0];
+}
 
 function renderTemplate(templatePath, data) {
     const templateSource = fs.readFileSync(templatePath, "utf8");
@@ -11,6 +56,8 @@ function renderTemplate(templatePath, data) {
 }
 
 (async function () {
+    const selectedKit = await selectKit();
+
     const browser = await puppeteer.launch({
         headless: "new",
     });
@@ -26,13 +73,13 @@ function renderTemplate(templatePath, data) {
     const LOGO_URL = `data:image/png;base64,${logoBase64}`;
 
     const data = {
-        KIT_NAME: "Rosco M68K Kit",
-        SKU: "rosco-m68k-through-hole-kit",
+        KIT_NAME: selectedKit.KIT_NAME,
+        SKU: selectedKit.SKU,
         DATE: new Date().toISOString().slice(0, 10),
-        REV: "2.4",
+        REV: "1.0",
         QR_URL: qrSrc, 
         LOGO_URL: LOGO_URL,
-        BOM
+        BOM: selectedKit.BOM,
     };
 
     const page1 = await browser.newPage();

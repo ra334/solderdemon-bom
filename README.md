@@ -24,6 +24,8 @@ Run the generator:
 node main.js
 ```
 
+Use the arrow keys to pick which BOM to generate (Rosco 6502 or Rosco m68k), then press Enter.
+
 **This will:**
 1. Load the template files.
 2. Process the BOM data.
