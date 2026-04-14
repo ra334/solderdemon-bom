@@ -1,0 +1,92 @@
+[
+  {
+    "index": 1,
+    "component": "Capacitor",
+    "ref": "C2,C9,C8,C7,C6,C5,C4,C3,C1",
+    "footprint": "C2.5-3",
+    "value": "100nF",
+    "qty": 9,
+    "notes": ""
+  },
+  {
+    "index": 2,
+    "component": "Capacitor",
+    "ref": "C11,C10",
+    "footprint": "C-Electolytic-2,5-5",
+    "value": "100uF",
+    "qty": 2,
+    "notes": ""
+  },
+  {
+    "index": 3,
+    "component": "Resistor",
+    "ref": "R1",
+    "footprint": "R-0207_10",
+    "value": "10K",
+    "qty": 1,
+    "notes": ""
+  },
+  {
+    "index": 4,
+    "component": "Resistor",
+    "ref": "R2",
+    "footprint": "R-0207_10",
+    "value": "100K",
+    "qty": 1,
+    "notes": ""
+  },
+  {
+    "index": 5,
+    "component": "Resistor",
+    "ref": "R5,R4,R3",
+    "footprint": "R-0207_10",
+    "value": "4K7",
+    "qty": 3,
+    "notes": ""
+  },
+  {
+    "index": 6,
+    "component": "Transistor",
+    "ref": "Q1",
+    "footprint": "",
+    "value": "2N3904",
+    "qty": 1,
+    "notes": ""
+  },
+  {
+    "index": 7,
+    "component": "IC",
+    "ref": "IC1",
+    "footprint": "DIL20",
+    "value": "ATF16V8VQL-15PU",
+    "qty": 1,
+    "notes": ""
+  },
+  {
+    "index": 8,
+    "component": "IC",
+    "ref": "U1,U2,U3,U4,U5,U6,U7,U8",
+    "footprint": "DIP-32_W15.24mm",
+    "value": "AS6C4008-55PCN",
+    "qty": 8,
+    "notes": ""
+  },
+  {
+    "index": 9,
+    "component": "Jumper",
+    "ref": "JP1-3",
+    "footprint": "pin-2X3",
+    "value": "Conn_02x03_Odd_Even",
+    "qty": 1,
+    "notes": ""
+  },
+  {
+    "index": 10,
+    "component": "Connector",
+    "ref": "J1",
+    "footprint": "pin-2X32",
+    "value": "Conn_02x32_Odd_Even",
+    "qty": 1,
+    "notes": ""
+  }
+]

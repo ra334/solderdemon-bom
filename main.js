@@ -6,6 +6,7 @@ import prompts from "prompts";
 import BOM6502 from './BOM_rosco_6502.json' with { type: "json" };
 import BOMm68k from './BOM_rosco_m68k.json' with { type: "json" };
 import BOMbusBoard from './BOM_rosco_bus_board.json' with { type: "json" };
+import BOMramExpansionBoard from './BOM_rosco_expansion_ram_board.json' with { type: "json" };
 
 const kits = [
     {
@@ -28,6 +29,13 @@ const kits = [
         KIT_NAME: "Rosco Bus Board Kit",
         SKU: "rosco-bus-board-kit",
         BOM: BOMbusBoard,
+    },
+    {
+        id: "ram-expansion-board",
+        label: "Generate Rosco RAM Expansion Board BOM",
+        KIT_NAME: "Rosco RAM Expansion Board Kit",
+        SKU: "rosco-ram-expansion-board-kit",
+        BOM: BOMramExpansionBoard,
     },
 ];
 
