@@ -1,0 +1,128 @@
+[
+  {
+    "index": 1,
+    "component": "Capacitor",
+    "ref": "C8,C6,C5,C4,C3,C2",
+    "footprint": "",
+    "value": "100nF",
+    "qty": 5,
+    "notes": ""
+  },
+  {
+    "index": 2,
+    "component": "Capacitor",
+    "ref": "C7",
+    "footprint": "",
+    "value": "330nf",
+    "qty": 1,
+    "notes": ""
+  },
+  {
+    "index": 3,
+    "component": "Capacitor",
+    "ref": "C1",
+    "footprint": "",
+    "value": "470uF",
+    "qty": 1,
+    "notes": ""
+  },
+  {
+    "index": 4,
+    "component": "Resistor",
+    "ref": "R1",
+    "footprint": "",
+    "value": "1K",
+    "qty": 1,
+    "notes": ""
+  },
+  {
+    "index": 5,
+    "component": "LED",
+    "ref": "LED1",
+    "footprint": "",
+    "value": "YELLOW",
+    "qty": 1,
+    "notes": ""
+  },
+  {
+    "index": 6,
+    "component": "IC",
+    "ref": "U1",
+    "footprint": "",
+    "value": "L7805",
+    "qty": 1,
+    "notes": ""
+  },
+  {
+    "index": 7,
+    "component": "Switch",
+    "ref": "SW1",
+    "footprint": "",
+    "value": "POWER",
+    "qty": 1,
+    "notes": ""
+  },
+  {
+    "index": 8,
+    "component": "Jumper",
+    "ref": "JP6,JP5,JP4",
+    "footprint": "",
+    "value": "Jumper",
+    "qty": 1,
+    "notes": ""
+  },
+  {
+    "index": 9,
+    "component": "Connector",
+    "ref": "BUS5-1,BUS4-1,BUS3-1,BUS2-1,BUS1-1",
+    "footprint": "pin-2X32",
+    "value": "Conn_02x32_Odd_Even",
+    "qty": 5,
+    "notes": ""
+  },
+  {
+    "index": 10,
+    "component": "Connector",
+    "ref": "JBUS5-2,BUS4-2,BUS3-2,BUS2-2,BUS1-2",
+    "footprint": "pin-2X8",
+    "value": "Conn_02x08_Odd_Even",
+    "qty": 5,
+    "notes": ""
+  },
+  {
+    "index": 11,
+    "component": "Connector",
+    "ref": "J1",
+    "footprint": "",
+    "value": "Conn_01x03_Male",
+    "qty": 1,
+    "notes": ""
+  },
+  {
+    "index": 12,
+    "component": "Connector",
+    "ref": "J2",
+    "footprint": "",
+    "value": "Screw_Terminal_01x02",
+    "qty": 1,
+    "notes": ""
+  },
+  {
+    "index": 13,
+    "component": "Connector",
+    "ref": "J3",
+    "footprint": "",
+    "value": "Jack-DC",
+    "qty": 1,
+    "notes": ""
+  },
+  {
+    "index": 14,
+    "component": "Connector",
+    "ref": "J4",
+    "footprint": "",
+    "value": "USB_B_Micro",
+    "qty": 1,
+    "notes": ""
+  }
+]

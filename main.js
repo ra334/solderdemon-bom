@@ -5,6 +5,7 @@ import path from "path";
 import prompts from "prompts";
 import BOM6502 from './BOM_rosco_6502.json' with { type: "json" };
 import BOMm68k from './BOM_rosco_m68k.json' with { type: "json" };
+import BOMbusBoard from './BOM_rosco_bus_board.json' with { type: "json" };
 
 const kits = [
     {
@@ -20,6 +21,13 @@ const kits = [
         KIT_NAME: "Rosco m68k Kit",
         SKU: "rosco-m68k-kit",
         BOM: BOMm68k,
+    },
+    {
+        id: "bus-board",
+        label: "Generate Rosco Bus Board BOM",
+        KIT_NAME: "Rosco Bus Board Kit",
+        SKU: "rosco-bus-board-kit",
+        BOM: BOMbusBoard,
     },
 ];
 
