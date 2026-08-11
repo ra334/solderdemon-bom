@@ -13,28 +13,24 @@ const kits = [
         id: "6502",
         label: "Generate Rosco 6502 BOM",
         KIT_NAME: "Rosco 6502 Kit",
-        SKU: "rosco-6502-through-hole-kit",
         BOM: BOM6502,
     },
     {
         id: "m68k",
         label: "Generate Rosco m68k BOM",
         KIT_NAME: "Rosco m68k Kit",
-        SKU: "rosco-m68k-kit",
         BOM: BOMm68k,
     },
     {
         id: "bus-board",
         label: "Generate Rosco Bus Board BOM",
         KIT_NAME: "Rosco Bus Board Kit",
-        SKU: "rosco-bus-board-kit",
         BOM: BOMbusBoard,
     },
     {
         id: "ram-expansion-board",
         label: "Generate Rosco RAM Expansion Board BOM",
         KIT_NAME: "Rosco RAM Expansion Board Kit",
-        SKU: "rosco-ram-expansion-board-kit",
         BOM: BOMramExpansionBoard,
     },
 ];
@@ -90,9 +86,6 @@ function renderTemplate(templatePath, data) {
 
     const data = {
         KIT_NAME: selectedKit.KIT_NAME,
-        SKU: selectedKit.SKU,
-        DATE: new Date().toISOString().slice(0, 10),
-        REV: "1.0",
         QR_URL: qrSrc, 
         LOGO_URL: LOGO_URL,
         BOM: selectedKit.BOM,
